@@ -11,7 +11,7 @@ function PhotoList() {
 
     useEffect(() => {
 		
-		console.log('My PhotList component is mounted');
+		console.log('My PhotoList component is mounted');
 		
 		//getting data from server somewhere
 		//

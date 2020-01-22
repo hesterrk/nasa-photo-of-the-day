@@ -13,21 +13,21 @@ function PhotoCard(props) {
             <h3>{props.copyright}</h3>
             <h3>{props.date}</h3>
             <h2>{props.explanation}</h2>
-            <h3>{props.title}</h3>
-            <h4>{props.url}</h4>
-
+            <h1>{props.title}</h1>
+           
 
         </div>
 
 
 
-
+<div className="imagedisplay">
         <img
         alt="space"
-        className="spaceimg1"
-        // src={props}
+        className="spaceimg"
+        src={props.url}
+     
         />
-            
+           </div> 
     
 
     
