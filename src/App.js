@@ -8,11 +8,10 @@ function App() {
     <div className="App">
       
       <p>
-        Hester's NASA
-        app 🚀
+        🚀🚀🚀🚀🚀🚀🚀🚀
       </p>
 
-      <PhotoList />
+      {/* <PhotoList /> */}
      
     </div>
   );

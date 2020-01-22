@@ -9,15 +9,16 @@ const animationName = keyframes`
 const Div = styled.div`
 animation: ${animationName} 3s ease infinite alternate;
 width: 100%;
-border: 1px red solid;
-background: coral;
+border: 4px powderblue solid;
+border-radius: 3px;
+background: #6495ED;
 `
 
 function PhotoHeader () {
 
     return (
         <Div className="photoHeader">
-            <p>Welcome To NASA Photo Of The Day </p>
+            <p>Welcome to NASA Photo of the Day </p>
 
 
 
