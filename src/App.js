@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import PhotoList from "./components/PhotoList";
 
 function App() {
+
   return (
     <div className="App">
       
@@ -10,6 +11,8 @@ function App() {
         Hester's NASA
         app 🚀
       </p>
+
+      <PhotoList />
      
     </div>
   );
