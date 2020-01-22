@@ -14,16 +14,21 @@ border-radius: 3px;
 background: #6495ED;
 `
 
+
+const Span = styled.div `
+padding-bottom: 10px;
+`
+
 function PhotoHeader () {
 
     return (
+        <Span className="stylespan">
         <Div className="photoHeader">
             <p>Welcome to NASA Photo of the Day </p>
 
-
-
-
         </Div>
+
+        </Span>
 
     );
 };

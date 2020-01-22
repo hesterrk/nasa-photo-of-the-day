@@ -5,9 +5,14 @@ import styled from 'styled-components';
 
 
 const Img = styled.img `
-border: 2px solid black;
-`
+border: 8px solid black;
+height: 600px;
+width: 800px;
 
+
+
+`
+//check margin to decrease size of pictures
 
 
 function PhotoCard(props) {
