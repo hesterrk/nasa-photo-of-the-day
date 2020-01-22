@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PhotoHeader from "./PhotoHeader";
 
 function PhotoCard(props) {
 
@@ -9,6 +9,7 @@ function PhotoCard(props) {
         //see shape of data
     <div className="photoCard">
 
+        <PhotoHeader />
         <div className="photoinformation">
             <h3>{props.copyright}</h3>
             <h3>{props.date}</h3>
