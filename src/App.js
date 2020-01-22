@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./App.css";
 import PhotoList from "./components/PhotoList";
 
@@ -12,7 +12,7 @@ function App() {
         app 🚀
       </p>
 
-      <PhotoList />
+      {/* <PhotoList /> */}
      
     </div>
   );
