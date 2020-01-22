@@ -12,7 +12,7 @@ function App() {
         app 🚀
       </p>
 
-      {/* <PhotoList /> */}
+      <PhotoList />
      
     </div>
   );

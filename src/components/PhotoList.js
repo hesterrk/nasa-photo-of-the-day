@@ -41,7 +41,6 @@ function PhotoList() {
 
 {/* //this is where we are going to map through the data we recieved */}
 
-<h2>Cool Space pics!</h2>
 
 {/* { Object.keys(spaceData).map(space => {
 							return (
