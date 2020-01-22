@@ -11,11 +11,11 @@ function PhotoCard(props) {
 
         <PhotoHeader />
         <div className="photoinformation">
-            <img src={props.hdurl} alt= "space"/>
-            <h1>{props.title}</h1>
-            <h3> Photograph By: {props.copyright}</h3>
-            <h3> Date of Photograph: {props.date}</h3>
-            <p>{props.explanation}</p>
+            <img src={props.data.hdurl} alt= "space"/>
+            <h1>{props.data.title}</h1>
+            <h3> Photograph By: {props.data.copyright}</h3>
+            <h3> Date of Photograph: {props.data.date}</h3>
+            <p>{props.data.explanation}</p>
           
           </div>
            

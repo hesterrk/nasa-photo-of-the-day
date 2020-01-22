@@ -43,14 +43,14 @@ function PhotoList() {
 
 <h2>Cool Space pics!</h2>
 
-{ Object.keys(spaceData).map(space => {
+{/* { Object.keys(spaceData).map(space => {
 							return (
 		              <PhotoCard
 					  copyright={space.copyright}
 					  date={space.date}
 					  explanation={space.explanaton}
 					  title={space.title}
-					  url={space.url}
+					  hdurl={space.hdurl}
 						
 
 		/>
@@ -58,8 +58,10 @@ function PhotoList() {
 	)
 
 })
-}
+} */}
 
+
+<PhotoCard data = {spaceData} />
 
 </div>
 
