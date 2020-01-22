@@ -48,7 +48,7 @@ function PhotoList() {
 		              <PhotoCard
 					  copyright={space.copyright}
 					  date={space.date}
-					  explanaton={space.explanaton}
+					  explanation={space.explanaton}
 					  title={space.title}
 					  url={space.url}
 						

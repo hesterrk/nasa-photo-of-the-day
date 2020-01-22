@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function PhotoCard() {
+function PhotoCard(props) {
 
     return (
 
@@ -10,10 +10,11 @@ function PhotoCard() {
     <div className="photoCard">
 
         <div className="photoinformation">
-            {/* <h3>copyrightpropshere</h3> */}
-            {/* <h3>date props here</h3> */}
-            {/* <h2>Explanation props here</h2> */}
-            {/* <h3>More text</h3> */}
+            <h3>{props.copyright}</h3>
+            <h3>{props.date}</h3>
+            <h2>{props.explanation}</h2>
+            <h3>{props.title}</h3>
+            <h4>{props.url}</h4>
 
 
         </div>
