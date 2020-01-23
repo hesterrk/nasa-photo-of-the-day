@@ -10,7 +10,7 @@ height: 600px;
 width: 800px;
 
 &:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 `
@@ -28,7 +28,7 @@ font-size: 10px;
 padding: 10px;
 border-radius: 5px;
 background: darkcyan;
-color: ${props => props.color};
+color: ${props => (props.color ? 'black' : 'white')};
 margin-left: 10px;
 margin-right: 10px;
 margin-bottom: 20px;
@@ -40,7 +40,7 @@ margin-bottom: 20px;
 `
 
 const DifferentButton = styled(Button) `
-color: white;
+
 &:hover {
     background: lavender;
 }
