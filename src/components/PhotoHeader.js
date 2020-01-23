@@ -2,7 +2,7 @@ import React from "react";
 import styled, {keyframes} from 'styled-components'
 
 const animationName = keyframes`
-  0% { color: blue; }
+  0% { color: darkcyan; }
   100% { color: pink; }
 `
 
@@ -12,6 +12,8 @@ width: 100%;
 border: 4px powderblue solid;
 border-radius: 3px;
 background: #6495ED;
+font-family:monospace;
+font-size: 1.5rem;
 `
 
 
@@ -19,7 +21,11 @@ const Span = styled.div `
 padding-bottom: 10px;
 `
 
+
+
 function PhotoHeader () {
+
+
 
     return (
         <Span className="stylespan">
