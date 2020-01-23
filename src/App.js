@@ -11,7 +11,7 @@ function App() {
        🚀🚀🚀🚀🚀🚀🚀🚀 
       </p>
 
-      {/* <PhotoList /> */}
+      <PhotoList />
      
     </div>
   );
