@@ -10,7 +10,7 @@ height: 600px;
 width: 800px;
 
 &:hover {
-    border: 8px dotted lavenderblush;
+    transform: scale(1.1);
 }
 
 `
@@ -20,6 +20,34 @@ const Div = styled.div`
 font-family:monospace;
 
 `
+
+
+const Button = styled.button `
+margin: 10px auto;
+font-size: 10px;
+padding: 10px;
+border-radius: 5px;
+background: darkcyan;
+color: ${props => props.color};
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+
+&:hover {
+    background: mediumorchid;
+}
+
+`
+
+const DifferentButton = styled(Button) `
+color: white;
+&:hover {
+    background: lavender;
+}
+
+
+`
+
 
 
 function PhotoCard(props) {
@@ -39,6 +67,9 @@ function PhotoCard(props) {
             <p>{props.data.explanation}</p>
           
           </Div>
+
+          <Button color="black">See More</Button>
+          <DifferentButton>About Us</DifferentButton>
            
     </div>
 
