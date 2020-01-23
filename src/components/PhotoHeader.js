@@ -9,11 +9,12 @@ const animationName = keyframes`
 const Div = styled.div`
 animation: ${animationName} 3s ease infinite alternate;
 width: 100%;
-border: 4px powderblue solid;
+border: 3px powderblue solid;
 border-radius: 3px;
 background: #6495ED;
 font-family:monospace;
 font-size: 1.5rem;
+
 `
 
 

@@ -18,6 +18,8 @@ width: 800px;
 
 const Div = styled.div`
 font-family:monospace;
+margin-left: 30px;
+margin-right: 30px;
 
 `
 
@@ -69,7 +71,7 @@ function PhotoCard(props) {
           </Div>
 
           <Button color="black">See More</Button>
-          <DifferentButton>About Us</DifferentButton>
+          <DifferentButton>About NASA</DifferentButton>
            
     </div>
 
